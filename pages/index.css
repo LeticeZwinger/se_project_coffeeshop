@@ -103,11 +103,10 @@
   background-color: #0a2750;
   color: #fff;
   padding: 100px 80px 215px;
-  min-height: 720px;
   max-height: 800px;
   position: relative;
-  background-size: cover;
   z-index: 0;
+  background-position: center;
 }
 
 .recipes__title {
@@ -138,7 +137,7 @@
   width: 480px;
 }
 
-.reciples__video-caption {
+.recipes__videos_video-caption {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
