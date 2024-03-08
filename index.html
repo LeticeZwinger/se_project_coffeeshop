@@ -12,7 +12,7 @@
 
     <title>The Coffee Shop</title>
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="stylesheet" href="favicon.ico" />
+    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -46,9 +46,7 @@
         </nav>
         <div>
           <h1 class="header__title">
-            <span class="header__title header__title_span-accent"
-              >Specialty coffee</span
-            >
+            <span class="header__title_span-accent">Specialty coffee</span>
             in the Triple Peaks Library
           </h1>
         </div>
@@ -65,15 +63,17 @@
 
         <div class="header__footer">
           <div>
-            <p class="header__footer header__footer_paragraph">Hours:</p>
-            <p class="header__footer header__footer_paragraph">
+            <p class="header__footer_paragraph">Hours:</p>
+            <p class="header__footer_paragraph">
               Monday – Friday (10:00 – 19:00)
             </p>
-            <p class="header__footer header__footer_paragraph">
+            <p class="header__footer_paragraph">
               Saturday – Sunday (11:00 – 18:00)
             </p>
           </div>
-          <p>200 Success Avenue, The Town of Triple Peaks</p>
+          <p class="header__footer_paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
         </div>
       </header>
       <main class="content">
@@ -93,7 +93,7 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-              <p class="recipes__videos recipes__videos_video-caption">
+              <p class="recipes__videos_video-caption">
                 <span>Aeropress recipe</span> ~5min
               </p>
             </div>
@@ -105,7 +105,7 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-              <p class="recipes__videos recipes__videos_video-caption">
+              <p class="recipes__videos_video-caption">
                 <span>French press recipe</span>~15min
               </p>
             </div>
@@ -113,7 +113,7 @@
         </section>
 
         <section class="reservation" id="book_a_table-link">
-          <h3 class="reservation__title">Book a table</h3>
+          <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form form">
             <fieldset class="form__fieldset">
               <label class="form__label" for="username">Name *</label>
@@ -183,14 +183,14 @@
         </section>
         <!-- Final stage of the project goes here "Menu and footer-->
         <section class="menu" id="menu-link">
-          <h3 class="menu__title">Menu</h3>
+          <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
             We brew coffee from locally roasted, Fairtrade certified beans and
             use biodegradable cups. All teas from our collection are $2/cup.
           </p>
           <ul class="menu__cards">
             <li class="card">
-              <h4 class="card__title">Filter</h4>
+              <h3 class="card__title">Filter</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Regular (12 oz)<span class="card__list-divider"></span>$1
@@ -260,10 +260,8 @@
         </section>
 
         <section class="about">
-          <h4 class="about__title">About the coffeeshop</h4>
+          <h2 class="about__title">About the coffeeshop</h2>
           <div class="about__content">
-            <div class="about__circle"></div>
-            <div class="about__circle about__circle_animation_blurred"></div>
             <p class="about__paragraph">
               Our coffee shop is located in the Triple Peaks Library. It
               features 6 tables and free WiFi.
@@ -277,10 +275,13 @@
               cups!
             </p>
           </div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
         </section>
         <!-- Your content goes above here -->
       </main>
       <footer class="footer" id="contacts-link">
+        <h2 class="footer__social-heading">Social media</h2>
         <div class="footer__content">
           <img
             src="./images/logo_coffeeshop_light.svg"
@@ -289,11 +290,10 @@
           />
 
           <ul class="footer__list">
-            <h5 class="footer__social-heading">Social media</h5>
             <li class="footer__list-item">
               <a href="#facebook" class="footer__social-link">
                 <img
-                  src="/images/facebook_white.svg"
+                  src="./images/facebook_white.svg"
                   alt="facebook logo"
                   class="footer__social-icon"
                 />
@@ -314,7 +314,6 @@
         </div>
         <p class="footer__copyright">&#169;2024 Letice Zwinger</p>
       </footer>
-      ~
     </div>
   </body>
 </html>
