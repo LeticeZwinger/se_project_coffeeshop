@@ -11,7 +11,7 @@
 }
 
 .recipes__title {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -40,7 +40,7 @@
   border: 0;
 }
 
-.recipes__videos_video-caption {
+.recipes__videos-video-caption {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
