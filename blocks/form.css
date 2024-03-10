@@ -19,6 +19,7 @@
   padding: 0;
   box-sizing: border-box;
   margin-top: 8px;
+  margin-bottom: 32px;
   height: 60px;
   font-size: 20px;
   line-height: 30px;
@@ -34,7 +35,6 @@
   padding: 0;
   box-sizing: border-box;
   margin-bottom: 32px;
-  margin-top: 32px;
   height: 60px;
   background-color: #2f80ed;
   border: none;
@@ -50,7 +50,6 @@
 
 .form__label {
   display: block;
-  margin-top: 32px;
 }
 
 .form__label_type_checkbox {

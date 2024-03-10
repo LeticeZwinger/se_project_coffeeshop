@@ -53,6 +53,7 @@
   line-height: 20px;
   color: #838383;
   margin-top: auto;
+  align-items: end;
 }
 
 .header__paragraph {
